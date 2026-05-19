@@ -1,0 +1,10 @@
+geopandas
+shapely
+fiona
+python-multipart
+fastapi
+uvicorn[standard]
+pyogrio
+
+
+

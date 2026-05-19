@@ -1,0 +1,6 @@
+conda update conda
+conda create -n apisic38 python=3.8
+conda activate apisic38
+
+pip install -r requirements.txt
+
