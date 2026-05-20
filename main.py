@@ -11,7 +11,7 @@ app = FastAPI(title="ESRIJSON to GPX Converter")
 # Abilita CORS per permettere a WordPress di interrogare l'API
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # In produzione sostituisci "*" con l'URL del tuo sito WordPress
+    allow_origins=["https://salvaiciclistiroma.it"],  # In produzione sostituisci "*" con l'URL del tuo sito WordPress
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
